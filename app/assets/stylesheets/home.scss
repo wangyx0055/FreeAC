@@ -1,0 +1,78 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" );
+
+body {
+    background-color : grey;
+    margin:  0;
+    padding: 0;
+
+}
+.wrapper {
+    width: 850px ;
+    height: 453px;
+
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid grey;
+    background-color :#f6f6f6;
+    border-radius: 40px;
+
+
+
+}
+
+.tv{
+  width: 870px ;
+  height: 600px;
+  background-image: url("http://pundi-live.net/images/blank-screen_03.png");
+  background-size:100% 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  z-index:-3;
+
+}
+
+.centered{
+    padding: 40px;
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    color: #198c19;
+    font: 38px  "Comic Sans MS", cursive, sans-serif;
+}
+
+.centered_bot{
+    padding: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+    font: 24px "Comic Sans MS", cursive, sans-serif;
+    color: #1EC152;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 160px;
+    overflow-x: hidden;
+    width: auto;
+}
+
+.divider{
+    margin: 15px;
+  }
+
+.text_b {
+    font: 18px "Comic Sans MS", cursive, sans-serif;
+    padding-top: 4px;
+}
+
+.zero_pad{
+    padding: 0;
+
+}
+.dateB{
+    padding-left: 15px;
+}
